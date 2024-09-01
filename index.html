@@ -13,90 +13,99 @@
 
 <body class="m-0 p-0 bg-black">
     <div class="container flex mx-auto flex-row items-center justify-center">
-        <div class="first w-1/5 h-screen p-3 flex flex-col justify-between">
-            <div class="box flex flex-col gap-5">
+        <div class="first w-20 lg:w-1/4 h-screen p-3 flex flex-col justify-between">
+            <div class="box flex flex-col gap-5 items-center lg:items-start">
                 <img src="images/logo.svg" alt="X-logo" class="mx-3 cursor-pointer w-8 invert">
-                <div class="sidebar">
+                <div class="sidebar flex justify-center items-center lg:block">
                     <ul>
                         <li
-                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 pr-6 rounded-full  hover:bg-[#1e1e1e]">
+                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 lg:pr-6 rounded-full hover:bg-[#1e1e1e]">
                             <span class="text-3xl material-symbols-outlined">home</span>
-                            Home
+                            <span class="hidden lg:block">Home</span>
                         </li>
                         <li
-                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 pr-6 rounded-full hover:bg-[#1e1e1e]">
+                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 lg:pr-6 rounded-full hover:bg-[#1e1e1e]">
                             <span class="text-3xl material-symbols-outlined">search</span>
-                            Explore
+                            <span class="hidden lg:block">Explore</span>
                         </li>
                         <li
-                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 pr-6 rounded-full hover:bg-[#1e1e1e]">
+                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 lg:pr-6 rounded-full hover:bg-[#1e1e1e]">
                             <span class="text-3xl material-symbols-outlined">notifications</span>
-                            Notifications
+                            <span class="hidden lg:block">Notifications</span>
                         </li>
                         <li
-                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 pr-6 rounded-full hover:bg-[#1e1e1e]">
+                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 lg:pr-6 rounded-full hover:bg-[#1e1e1e]">
                             <span class="text-3xl material-symbols-outlined">mail</span>
-                            Messages
+                            <span class="hidden lg:block">Messages</span>
                         </li>
                         <li
-                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 pr-6 rounded-full hover:bg-[#1e1e1e]">
+                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 lg:pr-6 rounded-full hover:bg-[#1e1e1e]">
                             <span class="text-3xl material-symbols-outlined">code</span>
-                            Grok
+                            <span class="hidden lg:block">Grok</span>
                         </li>
                         <li
-                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 pr-6 rounded-full hover:bg-[#1e1e1e]">
+                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 lg:pr-6 rounded-full hover:bg-[#1e1e1e]">
                             <span class="text-3xl material-symbols-outlined">people</span>
-                            Community
+                            <span class="hidden lg:block">Community</span>
                         </li>
                         <li
-                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 pr-6 rounded-full hover:bg-[#1e1e1e]">
-                            <span class="text-3xl material-symbols-outlined"><img src="images/logo.svg" alt="X-logo"
-                                    class="w-8 invert"></span>
-                            Premium
+                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 lg:pr-6 rounded-full hover:bg-[#1e1e1e]">
+                            <span class="text-3xl material-symbols-outlined">
+                                <img src="images/logo.svg" alt="X-logo" class="w-8 invert">
+                            </span>
+                            <span class="hidden lg:block">Premium</span>
                         </li>
                         <li
-                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 pr-6 rounded-full hover:bg-[#1e1e1e]">
+                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 lg:pr-6 rounded-full hover:bg-[#1e1e1e]">
                             <span class="text-3xl material-symbols-outlined">bolt</span>
-                            Verified Orgs
+                            <span class="hidden lg:block">Verified Orgs</span>
                         </li>
                         <li
-                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 pr-6 rounded-full hover:bg-[#1e1e1e]">
+                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 lg:pr-6 rounded-full hover:bg-[#1e1e1e]">
                             <span class="text-3xl material-symbols-outlined">person</span>
-                            Profile
+                            <span class="hidden lg:block">Profile</span>
                         </li>
                         <li
-                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 pr-6 rounded-full hover:bg-[#1e1e1e]">
+                            class="cursor-pointer text-xl w-fit text-white flex gap-3 items-center font-semibold p-3 lg:pr-6 rounded-full hover:bg-[#1e1e1e]">
                             <span class="text-3xl material-symbols-outlined">more_horiz</span>
-                            More
+                            <span class="hidden lg:block">More</span>
                         </li>
                     </ul>
                 </div>
+                <button 
+                    class="lg:hidden bg-[#1D9BF0] w-10 h-10 rounded-full text-white flex items-center justify-center text-lg hover:bg-[#309fff]"><span
+                        class="material-symbols-outlined">
+                        draw
+                    </span>
+                </button>
+
+
                 <button
-                    class="bg-[#1D9BF0] px-6 py-3 rounded-full w-3/5 text-white font-bold text-lg hover:bg-[#309fff]">Post</button>
+                    class="hidden lg:block bg-[#1D9BF0] px-6 py-3 rounded-full w-3/5 text-white font-bold text-lg hover:bg-[#309fff]">Post</button>
             </div>
             <button class="profile flex items-center px-3 py-3 rounded-full w-full justify-between hover:bg-[#1e1e1e]">
                 <div class="flex items-center gap-2">
                     <img src="images/sj.jpg" class="w-9 rounded-full" alt="name">
                     <div class="text-left">
-                        <p class="text-white font-bold text-sm">Suyash Jain</p>
-                        <p class="text-[#71767b] text-xs">@jainsuyash2003</p>
+                        <p class="text-white font-bold text-sm hidden lg:block">Suyash Jain</p>
+                        <p class="text-[#71767b] text-xs hidden lg:block">@jainsuyash2003</p>
                     </div>
                 </div>
-                <span class="text-2xl material-symbols-outlined text-white">more_horiz</span>
+                <span class="text-2xl material-symbols-outlined text-white hidden lg:block">more_horiz</span>
             </button>
         </div>
 
         <div
-            class="second w-2/5 h-screen flex flex-col border-x border-[#2f3336] relative overflow-y-scroll no-scrollbar">
+            class="second w-fit lg:w-2/5 h-screen flex flex-col border-x border-[#2f3336] relative overflow-y-scroll no-scrollbar">
             <div class="sticky top-0 bg-[#000000] z-10">
                 <div class="box flex flex-row items-center justify-center font-bold text-center p-4 cursor-pointer">
                     <div class="forYou w-full text-white">For you</div>
                     <div class="following w-full text-[#71767b]">Following</div>
-                    <div class="bar absolute w-16 h-1 rounded-full bg-[#1D9BF0] left-[8.15rem] bottom-0"></div>
+                    <div class="bar absolute w-16 h-1 rounded-full bg-[#1D9BF0] left-[17%] sm:left-[7.3rem] md:left-[9.4rem] lg:left-[5rem] xl:left-[6.6rem] 2xl:left-[8.15rem] bottom-0"></div>
                 </div>
                 <hr class="border-[#2f3336]">
             </div>
-            <div class="write p-4 flex flex-row gap-2">
+            <div class="write p-4 hidden sm:flex flex-row gap-2">
                 <img src="images/sj.jpg" class="w-10 h-10 rounded-full" alt="name">
                 <div class="write w-full flex flex-col gap-4">
                     <input type="text" placeholder="What's happening?!"
@@ -108,7 +117,7 @@
                     </div>
                     <hr class="border-[#2f3336] w-full">
                     <div class="btns text-[#1D9BF0] flex flex-row justify-between items-center">
-                        <div class="write-icons flex flex-row items-center gap-1">
+                        <div class="write-icons flex-row items-center">
                             <button
                                 class="material-symbols-outlined p-2 rounded-full hover:bg-[#1d9cf030]">image</button>
                             <button
@@ -130,19 +139,20 @@
                 </div>
             </div>
 
-            <hr class="border-[#2f3336] w-full">
+            <hr class="border-[#2f3336] w-full hidden sm:block">
 
-            <p class="m-3 cursor-pointer text-base text-center text-[#1D9BF0]">Show 70 posts</p>
+            <p class="m-3 cursor-pointer text-base text-center text-[#1D9BF0] hidden sm:block">Show 70 posts</p>
 
-            <hr class="border-[#2f3336] w-full">
+            <hr class="border-[#2f3336] w-full hidden sm:block">
 
             <div class="feed px-4 py-2 flex flex-row gap-2 items-start">
                 <img src="images/elon.jpg" class="w-10 h-10 rounded-full" alt="name">
                 <div class="feed-col flex flex-col gap-2">
                     <div class="feed-top">
                         <div class="feed-top-intro flex flex-row justify-between">
-                            <p class="text-white font-bold text-[15px] hover:underline flex items-center gap-1">Elon
-                                Musk<span class="text-lg text-[#71767b] material-symbols-outlined">verified</span><span
+                            <p class="text-white font-bold text-[15px] flex items-center gap-1"><span
+                                    class="hover:underline">Elon Musk</span><span
+                                    class="text-lg text-[#71767b] material-symbols-outlined">verified</span><span
                                     class="font-normal text-[#71767b]">@elonmusk &sdot; 11h</span></p>
                             <span
                                 class="text-[#71767b] text-center align-middle w-[30px] h-[30px] rounded-full text-2xl material-symbols-outlined hover:bg-[#1d9cf030] hover:text-[#1D9BF0]">more_horiz</span>
@@ -195,7 +205,8 @@
                 <div class="feed-col flex flex-col gap-2">
                     <div class="feed-top">
                         <div class="feed-top-intro flex flex-row justify-between">
-                            <p class="text-white font-bold text-[15px] flex items-center gap-1">Elon Musk<span
+                            <p class="text-white font-bold text-[15px] flex items-center gap-1"><span
+                                    class="hover:underline">Elon Musk</span><span
                                     class="text-lg text-[#71767b] material-symbols-outlined">verified</span><span
                                     class="font-normal text-[#71767b]">@elonmusk &sdot; 11h</span></p>
                             <span
@@ -243,7 +254,8 @@
             </div>
         </div>
 
-        <div class="third w-1/4 h-screen p-3 pt-0 flex flex-col gap-5 overflow-y-scroll no-scrollbar relative">
+        <div
+            class="third w-1/3 2xl:w-1/4 h-screen p-3 pt-0 hidden flex-col gap-4 overflow-y-scroll no-scrollbar relative lg:flex">
             <div class="sticky pt-3 top-0 bg-[#000000] z-10">
                 <input type="text" id="search" name="search" placeholder="Search"
                     class="w-full py-2 px-6 pl-10 rounded-full bg-[#212327] text-[#71767b] p-2">
@@ -291,8 +303,10 @@
                     <div class="flex items-center gap-2">
                         <img src="images/modi.png" class="w-9 rounded-full" alt="name">
                         <div class="text-left">
-                            <p class="text-white font-bold text-sm hover:underline flex items-center gap-1">Narendra
-                                Modi<span class="text-lg text-[#71767b] material-symbols-outlined">verified</span></p>
+                            <p class="text-white font-bold text-sm flex items-center gap-1"><span
+                                    class="name hover:underline">Narendra
+                                    Modi</span><span
+                                    class="text-lg text-[#71767b] material-symbols-outlined">verified</span></p>
                             <p class="text-[#71767b] text-xs">@PMOIndia</p>
                         </div>
                     </div>
@@ -303,8 +317,9 @@
                     <div class="flex items-center gap-2">
                         <img src="images/kohli.png" class="w-9 rounded-full" alt="name">
                         <div class="text-left">
-                            <p class="text-white font-bold text-sm hover:underline flex items-center gap-1">Virat
-                                Kohli<span class="text-lg text-[#1D9BF0] material-symbols-outlined">verified</span></p>
+                            <p class="text-white font-bold text-sm flex items-center gap-1"><span
+                                    class="name hover:underline">Virat Kohli</span><span
+                                    class="text-lg text-[#1D9BF0] material-symbols-outlined">verified</span></p>
                             <p class="text-[#71767b] text-xs">@imVkohli</p>
                         </div>
                     </div>
@@ -315,8 +330,8 @@
                     <div class="flex items-center gap-2">
                         <img src="images/et.png" class="w-9 rounded-full" alt="name">
                         <div class="text-left">
-                            <p class="text-white font-bold text-sm hover:underline flex items-center gap-1">
-                                Entertainment Tonight<span
+                            <p class="text-white font-bold text-sm flex items-center gap-1"><span
+                                    class="name hover:underline">Entertainment Tonight</span><span
                                     class="text-lg text-[#71767b] material-symbols-outlined">verified</span></p>
                             <p class="text-[#71767b] text-xs">@etnow</p>
                         </div>
